@@ -22,3 +22,8 @@
     - append
 - sliceops.go
     - 切片的操作
+- maps.go
+- nonrepeating.go
+    - 寻找最长不含有重复字符的子串  
+- strings.go
+    - 字符和字符串的操作
