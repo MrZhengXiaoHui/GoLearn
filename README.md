@@ -27,3 +27,19 @@
     - 寻找最长不含有重复字符的子串  
 - strings.go
     - 字符和字符串的操作
+- primeNumber.go
+    - 求200~800之间的素数
+- multiplicationTable.go
+    - 9*9乘法表
+- charStatistics.go
+    - 编写一个函数接收一个字符串参数，进行统计
+- backToText.go
+    - 回文
+- flagDemo.go
+    - 实现一个密码生成工具
+- typeStruct.go
+    - 用方法实现getter和setter
+- stu
+    - 学生管理案例
+- GoldCoinAllocation.go 
+    - map练习~金币分配问题
