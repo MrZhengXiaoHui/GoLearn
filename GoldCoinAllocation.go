@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -39,16 +38,16 @@ func GoldCoinAllocation(name string) int {
 	return Gold
 }
 
-func main() {
-	fmt.Printf("用户: Matthew 持有%d金币\n", GoldCoinAllocation("Matthew"))
-	fmt.Printf("用户: Augustus 持有%d金币\n", GoldCoinAllocation("Augustus"))
-	fmt.Printf("用户: Emilie 持有%d金币\n", GoldCoinAllocation("Emilie"))
-	fmt.Printf("用户: Giana 持有%d金币\n", GoldCoinAllocation("Giana"))
-	fmt.Printf("用户: Elizabeth 持有%d金币\n", GoldCoinAllocation("Elizabeth"))
-	fmt.Printf("用户: Sarah 持有%d金币\n", GoldCoinAllocation("Sarah"))
-	fmt.Printf("用户: Heidi 持有%d金币\n", GoldCoinAllocation("Heidi"))
-	fmt.Printf("用户: Peter 持有%d金币\n", GoldCoinAllocation("Peter"))
-	fmt.Printf("用户: Adriano 持有%d金币\n", GoldCoinAllocation("Adriano"))
-	fmt.Printf("用户: Aaron 持有%d金币\n", GoldCoinAllocation("Aaron"))
-	fmt.Printf("总共剩余金币: %d\n", all)
-}
+//func main() {
+//	fmt.Printf("用户: Matthew 持有%d金币\n", GoldCoinAllocation("Matthew"))
+//	fmt.Printf("用户: Augustus 持有%d金币\n", GoldCoinAllocation("Augustus"))
+//	fmt.Printf("用户: Emilie 持有%d金币\n", GoldCoinAllocation("Emilie"))
+//	fmt.Printf("用户: Giana 持有%d金币\n", GoldCoinAllocation("Giana"))
+//	fmt.Printf("用户: Elizabeth 持有%d金币\n", GoldCoinAllocation("Elizabeth"))
+//	fmt.Printf("用户: Sarah 持有%d金币\n", GoldCoinAllocation("Sarah"))
+//	fmt.Printf("用户: Heidi 持有%d金币\n", GoldCoinAllocation("Heidi"))
+//	fmt.Printf("用户: Peter 持有%d金币\n", GoldCoinAllocation("Peter"))
+//	fmt.Printf("用户: Adriano 持有%d金币\n", GoldCoinAllocation("Adriano"))
+//	fmt.Printf("用户: Aaron 持有%d金币\n", GoldCoinAllocation("Aaron"))
+//	fmt.Printf("总共剩余金币: %d\n", all)
+//}
