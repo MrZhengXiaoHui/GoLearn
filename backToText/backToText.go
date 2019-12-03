@@ -11,7 +11,7 @@ func BackToText(str string) {
 	fmt.Println(str == str1)
 }
 
-//func main() {
-//	BackToText("abccba") //true
-//	BackToText("abcbac") //false
-//}
+func main() {
+	BackToText("abccba") //true
+	BackToText("abcbac") //false
+}

@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"math/rand"
+	"time"
 )
 
 /*
@@ -60,12 +61,12 @@ func myPasswd() string {
 	return string(passwd)
 }
 
-//func main() {
-//	// 种子
-//	rand.Seed(time.Now().UnixNano())
-//	// 解析命令
-//	flagDemo()
-//	// 生成密码
-//	passwd := myPasswd()
-//	fmt.Println(passwd)
-//}
+func main() {
+	// 种子
+	rand.Seed(time.Now().UnixNano())
+	// 解析命令
+	flagDemo()
+	// 生成密码
+	passwd := myPasswd()
+	fmt.Println(passwd)
+}

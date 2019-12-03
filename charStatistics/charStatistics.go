@@ -31,6 +31,6 @@ func CharacterStatistics(str string) {
 	fmt.Println(quantity)
 }
 
-//func main() {
-//	CharacterStatistics("11中1aaa一bb-   ")
-//}
+func main() {
+	CharacterStatistics("11中1aaa一bb-   ")
+}

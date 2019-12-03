@@ -16,7 +16,7 @@ func createFile(i int, name string, dataByte []byte) {
 	}
 	defer file.Close()
 	if i == 0 {
-		for i := 0; i < 10; i++ {
+		for i := 0; i < 11; i++ {
 			file.WriteString(strconv.Itoa(i) + "\n")
 		}
 	} else {
@@ -50,12 +50,12 @@ func ReadingFile(name string) (dataByte []byte) {
 	return content
 }
 
-//func main() {
-//	// 创建或读取的文件名
-//	name := "a1.txt"
-//	// 拷贝后的文件名
-//	tagetName := "a2.txt"
-//	createFile(0, name, nil)       // 创建文件
-//	file := ReadingFile(name)      // 读取文件
-//	createFile(1, tagetName, file) // 拷贝文件
-//}
+func main() {
+	// 创建或读取的文件名
+	name := "./IOcopy/a1.txt"
+	// 拷贝后的文件名
+	tagetName := "./IOcopy/a2.txt"
+	createFile(0, name, nil)       // 创建文件
+	file := ReadingFile(name)      // 读取文件
+	createFile(1, tagetName, file) // 拷贝文件
+}

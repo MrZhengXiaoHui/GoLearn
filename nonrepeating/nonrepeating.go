@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*
 	例：寻找最长不含有重复字符的子串
 
@@ -43,16 +45,16 @@ func lengthOfNonRepeatingSubStr(s string) int {
 	return maxLength
 }
 
-//func main() {
-//	fmt.Println(
-//		lengthOfNonRepeatingSubStr("abcabcbb"),
-//		lengthOfNonRepeatingSubStr("bbbbb"),
-//		lengthOfNonRepeatingSubStr("pwwkew"),
-//		lengthOfNonRepeatingSubStr(""),
-//		lengthOfNonRepeatingSubStr("b"),
-//		lengthOfNonRepeatingSubStr("abcdef"),
-//		lengthOfNonRepeatingSubStr("测试"),
-//		lengthOfNonRepeatingSubStr("12321"),
-//		lengthOfNonRepeatingSubStr("12321"),
-//	)
-//}
+func main() {
+	fmt.Println(
+		lengthOfNonRepeatingSubStr("abcabcbb"),
+		lengthOfNonRepeatingSubStr("bbbbb"),
+		lengthOfNonRepeatingSubStr("pwwkew"),
+		lengthOfNonRepeatingSubStr(""),
+		lengthOfNonRepeatingSubStr("b"),
+		lengthOfNonRepeatingSubStr("abcdef"),
+		lengthOfNonRepeatingSubStr("测试"),
+		lengthOfNonRepeatingSubStr("12321"),
+		lengthOfNonRepeatingSubStr("12321"),
+	)
+}

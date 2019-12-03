@@ -36,13 +36,13 @@ func forever()  {
 	}
 }
 
-//func main() {
-//	fmt.Println(
-//		convertToBin(5),
-//		convertToBin(13),
-//		convertToBin(72387885),
-//		convertToBin(0),
-//	)
-//	printFile("abc.txt")
-//	forever()
-//}
+func main() {
+	fmt.Println(
+		convertToBin(5),
+		convertToBin(13),
+		convertToBin(72387885),
+		convertToBin(0),
+	)
+	printFile("abc.txt")
+	forever()
+}

@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type Student struct {
 	name string
 }
@@ -12,9 +14,9 @@ func (s *Student) setter(name string) {
 	s.name = name
 }
 
-//func main() {
-//	Student1:=Student{name:"zs"}
-//	fmt.Println(Student1.getter())
-//	Student1.setter("ls")
-//	fmt.Println(Student1.getter())
-//}
+func main() {
+	Student1:=Student{name:"zs"}
+	fmt.Println(Student1.getter())
+	Student1.setter("ls")
+	fmt.Println(Student1.getter())
+}
