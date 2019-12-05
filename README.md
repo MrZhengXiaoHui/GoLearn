@@ -49,3 +49,5 @@
     - 正则表达式
 - crawler
     - 单任务版爬虫
+- concurrentVersion
+    - 并发版爬虫
